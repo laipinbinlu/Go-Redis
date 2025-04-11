@@ -1,0 +1,10 @@
+2025/01/17 00:03:00 [ERROR][aof.go:97] open appendonly.aof: no such file or directory
+2025/01/17 00:03:00 [INFO][server.go:35] start listen
+2025/01/17 00:03:20 [INFO][server.go:63] accept link
+2025/01/17 00:05:39 [INFO][handler.go:57] connection closed127.0.0.1:48060
+2025/01/17 00:06:04 [INFO][server.go:35] start listen
+2025/01/17 00:06:17 [INFO][server.go:63] accept link
+2025/01/17 00:07:44 [INFO][handler.go:57] connection closed127.0.0.1:40044
+2025/01/17 20:24:58 [ERROR][aof.go:97] open appendonly.aof: no such file or directory
+2025/01/17 20:24:58 [INFO][server.go:35] start listen
+2025/01/17 20:26:08 [INFO][server.go:63] accept link

@@ -1,0 +1,45 @@
+2025/01/14 15:46:50 [INFO][server.go:35] start listen
+2025/01/14 15:47:09 [INFO][server.go:63] accept link
+2025/01/14 15:48:55 [ERROR][handler.go:76] require multi bulk reply
+2025/01/14 15:51:00 [INFO][handler.go:57] connection closed127.0.0.1:52648
+2025/01/14 15:51:08 [INFO][server.go:63] accept link
+2025/01/14 15:52:32 [ERROR][handler.go:76] require multi bulk reply
+2025/01/14 15:52:56 [INFO][handler.go:57] connection closed127.0.0.1:38226
+2025/01/14 16:11:00 [INFO][server.go:46] shutting down
+2025/01/14 16:11:31 [INFO][server.go:35] start listen
+2025/01/14 16:11:55 [INFO][server.go:63] accept link
+2025/01/14 16:13:00 [ERROR][handler.go:76] require multi bulk reply
+2025/01/14 16:14:20 [INFO][handler.go:57] connection closed127.0.0.1:58672
+2025/01/14 16:30:46 [INFO][server.go:35] start listen
+2025/01/14 16:31:07 [INFO][server.go:63] accept link
+2025/01/14 16:32:06 [INFO][handler.go:57] connection closed127.0.0.1:42320
+2025/01/14 16:32:12 [INFO][server.go:35] start listen
+2025/01/14 16:32:15 [INFO][server.go:63] accept link
+2025/01/14 16:33:10 [INFO][server.go:46] shutting down
+2025/01/14 16:33:10 [INFO][handler.go:90] hander shuttuing down
+2025/01/14 16:33:22 [INFO][server.go:35] start listen
+2025/01/14 16:33:28 [INFO][server.go:63] accept link
+2025/01/14 16:34:33 [INFO][server.go:46] shutting down
+2025/01/14 16:34:33 [INFO][handler.go:90] hander shuttuing down
+2025/01/14 16:34:40 [INFO][server.go:35] start listen
+2025/01/14 16:34:44 [INFO][server.go:63] accept link
+2025/01/14 16:38:03 [INFO][server.go:46] shutting down
+2025/01/14 16:38:03 [INFO][handler.go:90] hander shuttuing down
+2025/01/14 16:38:10 [INFO][server.go:35] start listen
+2025/01/14 16:38:13 [INFO][server.go:63] accept link
+2025/01/14 16:40:39 [INFO][server.go:35] start listen
+2025/01/14 16:40:44 [INFO][server.go:63] accept link
+2025/01/14 16:40:57 [INFO][parser.go:181] strconv.ParseUint: parsing "3\\r\\n$3\\r\\nSET\\r\\n$3\\r\\nkey\\r\\n$5\\r\\nvalue\\r\\n": invalid syntax 0
+2025/01/14 16:42:28 [INFO][server.go:46] shutting down
+2025/01/14 16:42:28 [INFO][handler.go:90] hander shuttuing down
+2025/01/14 16:42:35 [INFO][server.go:35] start listen
+2025/01/14 16:42:38 [INFO][server.go:63] accept link
+2025/01/14 16:42:41 [INFO][parser.go:181] strconv.ParseUint: parsing "3\\r\\n$3\\r\\nSET\\r\\n$3\\r\\nkey\\r\\n$5\\r\\nvalue\\r\\n": invalid syntax 0 msg : [42 51 92 114 92 110 36 51 92 114 92 110 83 69 84 92 114 92 110 36 51 92 114 92 110 107 101 121 92 114 92 110 36 53 92 114 92 110 118 97 108 117 101 92 114 92 110 13 10]
+2025/01/14 16:43:03 [INFO][server.go:46] shutting down
+2025/01/14 16:43:03 [INFO][handler.go:90] hander shuttuing down
+2025/01/14 16:43:18 [INFO][server.go:35] start listen
+2025/01/14 16:43:22 [INFO][server.go:63] accept link
+2025/01/14 16:43:24 [INFO][parser.go:181] strconv.ParseUint: parsing "3\\r\\n$3\\r\\nSET\\r\\n$3\\r\\nkey\\r\\n$5\\r\\nvalue\\r\\n": invalid syntax 0 msg : *3\r\n$3\r\nSET\r\n$3\r\nkey\r\n$5\r\nvalue\r\n
+
+2025/01/14 16:48:03 [INFO][parser.go:181] <nil> 3 msg : *3
+

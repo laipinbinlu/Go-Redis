@@ -1,0 +1,65 @@
+2025/01/16 00:40:09 [INFO][server.go:35] start listen
+2025/01/16 00:40:28 [INFO][server.go:63] accept link
+2025/01/16 00:41:37 [ERROR][parser.go:47] goroutine 7 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+go_redis/resp/parser.parse0.func1()
+	/home/wangbiao/go-redis/resp/parser/parser.go:47 +0x25
+panic({0x52ac40?, 0xc0000c8048?})
+	/usr/local/go/src/runtime/panic.go:914 +0x21f
+go_redis/resp/parser.readBody({0xc0000b226c?, 0xc000052f10?, 0x0?}, 0xc000052f10?)
+	/home/wangbiao/go-redis/resp/parser/parser.go:245 +0x26b
+go_redis/resp/parser.parse0({0x7562118ab008?, 0xc000040010?}, 0x0?)
+	/home/wangbiao/go-redis/resp/parser/parser.go:120 +0x6db
+created by go_redis/resp/parser.ParseStream in goroutine 6
+	/home/wangbiao/go-redis/resp/parser/parser.go:39 +0x91
+
+2025/01/16 00:42:22 [INFO][server.go:46] shutting down
+2025/01/16 00:42:22 [INFO][handler.go:90] hander shuttuing down
+2025/01/16 00:44:41 [INFO][server.go:35] start listen
+2025/01/16 00:44:44 [INFO][server.go:63] accept link
+2025/01/16 00:47:39 [INFO][handler.go:57] connection closed127.0.0.1:47338
+2025/01/16 00:52:25 [INFO][server.go:35] start listen
+2025/01/16 00:52:45 [INFO][server.go:63] accept link
+2025/01/16 00:55:56 [ERROR][handler.go:76] require multi bulk reply
+2025/01/16 00:56:17 [INFO][handler.go:57] connection closed127.0.0.1:58330
+2025/01/16 00:56:49 [INFO][server.go:63] accept link
+2025/01/16 00:56:57 [ERROR][handler.go:76] require multi bulk reply
+2025/01/16 00:57:09 [ERROR][handler.go:76] require multi bulk reply
+2025/01/16 00:59:23 [INFO][server.go:35] start listen
+2025/01/16 00:59:26 [INFO][server.go:63] accept link
+2025/01/16 01:24:07 [INFO][server.go:35] start listen
+2025/01/16 01:24:37 [INFO][server.go:63] accept link
+2025/01/16 01:29:20 [ERROR][parser.go:47] goroutine 24 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+go_redis/resp/parser.parse0.func1()
+	/home/wangbiao/go-redis/resp/parser/parser.go:47 +0x25
+panic({0x52ac40?, 0xc0000c8048?})
+	/usr/local/go/src/runtime/panic.go:914 +0x21f
+go_redis/resp/parser.readBody({0xc0000b2270?, 0x4?, 0x0?}, 0xc00004cf10?)
+	/home/wangbiao/go-redis/resp/parser/parser.go:245 +0x26b
+go_redis/resp/parser.parse0({0x71f23ba5a758?, 0xc000092048?}, 0x0?)
+	/home/wangbiao/go-redis/resp/parser/parser.go:120 +0x6db
+created by go_redis/resp/parser.ParseStream in goroutine 23
+	/home/wangbiao/go-redis/resp/parser/parser.go:39 +0x91
+
+2025/01/16 01:29:57 [INFO][server.go:46] shutting down
+2025/01/16 01:29:57 [INFO][handler.go:90] hander shuttuing down
+2025/01/16 01:36:22 [INFO][server.go:35] start listen
+2025/01/16 01:36:36 [INFO][server.go:63] accept link
+2025/01/16 01:36:46 [ERROR][handler.go:76] require multi bulk reply
+2025/01/16 01:39:08 [INFO][handler.go:57] connection closed127.0.0.1:53838
+2025/01/16 13:32:09 [INFO][server.go:35] start listen
+2025/01/16 13:32:25 [INFO][server.go:63] accept link
+2025/01/16 13:34:13 [ERROR][handler.go:76] require multi bulk reply
+2025/01/16 13:35:23 [INFO][handler.go:57] connection closed127.0.0.1:52338
+2025/01/16 13:38:29 [INFO][server.go:35] start listen
+2025/01/16 13:38:33 [INFO][server.go:63] accept link
+2025/01/16 13:42:11 [INFO][handler.go:57] connection closed127.0.0.1:54458
+2025/01/16 22:32:58 [INFO][server.go:35] start listen
+2025/01/16 22:33:16 [INFO][server.go:63] accept link
+2025/01/16 22:33:54 [INFO][handler.go:57] connection closed127.0.0.1:33340
+2025/01/16 22:35:21 [INFO][server.go:35] start listen
+2025/01/16 22:35:26 [INFO][server.go:63] accept link
+2025/01/16 22:37:23 [INFO][handler.go:57] connection closed127.0.0.1:56024
